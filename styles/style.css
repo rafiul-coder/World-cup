@@ -1,0 +1,36 @@
+.main{
+    background: red;
+    width: 1600px;
+    height: 2534px;
+    align-items: center;
+}
+.Top-banner{
+    display: flex;
+    background-color: black;
+    width: 1321px;
+    height: 646px;
+    border-radius: 30px;
+    align-items: center;
+}
+.text-decoration{
+    align-items: center;
+    padding: 161px 111px 106px 24px;
+}
+h2{
+    color: white;
+    font-size: 70px;
+}
+p{
+    color: white;
+    font-size: 16px;
+}
+.Watch-button{
+    text-decoration: none;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+}
