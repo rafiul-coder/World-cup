@@ -82,21 +82,23 @@
     text-decoration: none;
   }
   .full-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 252px;
     height: 64px;
     color: #ffffff;
     background-color: #dd0000;
-    text-align: center;
-    align-items: center;
     border-radius: 20px;
   }
   .empty-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 252px;
     height: 64px;
     color: black;
     background-color: white;
-    text-align: center;
-    align-items: center;
     margin-top: 10px;
     border-radius: 20px;
   }
@@ -125,9 +127,17 @@
     padding: 5px;
     margin: 5px;
   }
+  .blog h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
   .vs{
     display: flex;
     flex-direction: row;
+  }
+  .vs img{
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .right-box-blogs{
     display: grid;
@@ -171,5 +181,13 @@
     padding-right: 20px;
     color: white;
     font-size: 50px;
+    
+}
+/* RESPONSIVE CODE  */
+/* *********** */
+
+
+@media screen and (max-width:720px) {
+ 
     
 }

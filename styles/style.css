@@ -94,6 +94,8 @@ a {
 
 /* Blog Section Start */
 .empty-color {
+    display: flex;
+    align-items: center;
     height: 65px;
     width: 252px;
     color: black;
@@ -258,6 +260,9 @@ hr {
     color: white;
     font-size: 50px;
     
+}
+.view{
+    display: none;
 }
 
 /* ******************* */
