@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: "Poppins", sans-serif;
 }
 main {
     margin-top: 30px;
@@ -9,6 +10,12 @@ main {
 
 a {
     text-decoration: none;
+}
+.hover-effect:hover{
+    transform: scale(1.1);
+}
+.hover-effect{
+    transition: 1s transform;
 }
 
 #Bannar {
@@ -64,8 +71,11 @@ a {
     width: 180px;
     background-color: rgba(221, 0, 0, 1);
     border-radius: 5px;
+    transition: 0.5s transform;
 }
-
+.watch-button:hover{
+    /* transform: scale(1.1); */
+}
 .fa-chevron-right {
     margin-left: 20px;
 }
@@ -236,6 +246,19 @@ hr {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
+.social-icon{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 50px;
+    
+}
 
 /* ******************* */
 /* RESPONSIVE FOR MOBILE*/
@@ -248,6 +271,9 @@ hr {
         margin-right: 0;
     }
 
+    body{
+        overflow-x: hidden;
+    }
     .main-bannar {
         border-radius: 10px;
         width: 90%;
@@ -418,17 +444,6 @@ hr {
         border-radius: 5px;
         margin-bottom: 50px;
     }
-    .social-icon{
-        margin: 0;
-        padding: 0%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer-icons{
-        height: 100px;
-        width: 100px;
-    }
+  
 
 }
