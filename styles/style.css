@@ -414,5 +414,17 @@ hr {
         border-radius: 5px;
         margin-bottom: 50px;
     }
+    .social-icon{
+        margin: 0;
+        padding: 0%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icons{
+        height: 100px;
+        width: 100px;
+    }
 
 }
