@@ -21,6 +21,10 @@
         padding: 0;
         font-family: "Poppins", sans-serif;
       }
+      a {
+        text-decoration: none;
+        text-align: center;
+      }
       .main-banner {
         display: flex;
         flex-direction: row;
@@ -66,7 +70,6 @@
         justify-content: space-around;
         font-size: 20px;
         background-color: #dd0000;
-        text-decoration: none;
       }
       .main-banner-right {
         padding-right: 5%;
@@ -77,6 +80,70 @@
         width: 100%;
         height: 100%;
         background-size: cover;
+      }
+      .Left-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 312px;
+        height: 312px;
+        background-color: rgba(22, 22, 22, 1);
+        border-radius: 10px;
+        margin-right: 20px;
+        text-decoration: none;
+      }
+      .full-color {
+        width: 252px;
+        height: 64px;
+        color: #ffffff;
+        background-color: #dd0000;
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+      }
+      .empty-color {
+        width: 252px;
+        height: 64px;
+        color: black;
+        background-color: white;
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+        border-radius: 20px;
+      }
+      .matches-blog{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 1321px;
+        height: 646px;
+        border-radius: 30px;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-top: 30px;
+        
+      }
+      .blog{
+        border: 2%;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        width: 312px;
+        height: 242px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+      }
+      .vs{
+        display: flex;
+        flex-direction: row;
+      }
+      .right-box-blogs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
       }
     </style>
   </head>
@@ -103,6 +170,70 @@
           <div class="main-banner-right">
             <img src="images/messi.png" alt="" />
           </div>
+        </div>
+      </section>
+      <section id="banner">
+        <div class="matches-blog">
+          <div class="Left-box">
+            <a class="full-color" href="">Upcoming Match</a>
+            <a class="empty-color" href="">All Group</a>
+            <a class="empty-color" href="">Blog</a>
+          </div>
+          <div class="right-box-blogs">
+            <div class="blog">
+                <div class="vs">
+                  <img src="images/germany Flag.png" alt="">
+                  <h3>vs</h3>
+                  <img src="images/Flag.png" alt="">
+                </div>
+                <h3>Germany VS France </h3>
+                <p>April 01, 2023, 1.00 AM</p>
+            </div>
+            <div class="blog">
+                <div class="vs">
+                  <img src="images/germany Flag.png" alt="">
+                  <h3>vs</h3>
+                  <img src="images/Flag.png" alt="">
+                </div>
+                <h3>Germany VS France </h3>
+                <p>April 01, 2023, 1.00 AM</p>
+            </div>
+            <div class="blog">
+                <div class="vs">
+                  <img src="images/germany Flag.png" alt="">
+                  <h3>vs</h3>
+                  <img src="images/Flag.png" alt="">
+                </div>
+                <h3>Germany VS France </h3>
+                <p>April 01, 2023, 1.00 AM</p>
+            </div>
+            <div class="blog">
+                <div class="vs">
+                  <img src="images/germany Flag.png" alt="">
+                  <h3>vs</h3>
+                  <img src="images/Flag.png" alt="">
+                </div>
+                <h3>Germany VS France </h3>
+                <p>April 01, 2023, 1.00 AM</p>
+            </div>
+            <div class="blog">
+                <div class="vs">
+                  <img src="images/germany Flag.png" alt="">
+                  <h3>vs</h3>
+                  <img src="images/Flag.png" alt="">
+                </div>
+                <h3>Germany VS France </h3>
+                <p>April 01, 2023, 1.00 AM</p>
+            </div>
+            <div class="blog">
+                <div class="vs">
+                  <img src="images/germany Flag.png" alt="">
+                  <h3>vs</h3>
+                  <img src="images/Flag.png" alt="">
+                </div>
+                <h3>Germany VS France </h3>
+                <p>April 01, 2023, 1.00 AM</p>
+            </div>
         </div>
       </section>
     </main>
